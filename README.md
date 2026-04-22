@@ -34,23 +34,7 @@ A modern real-time chat application built using **React (Vite)** and **Socket.IO
 ## 📂 Project Structure
 
 
-convox/
-│
-├── backend/
-│ ├── server.js
-│ ├── package.json
-│
-├── convox/
-│ ├── src/
-│ │ ├── assets/
-│ │ ├── App.jsx
-│ │ ├── main.jsx
-│ │ ├── ws.js
-│ │ ├── index.css
-│ ├── public/
-│ ├── index.html
-│ ├── package.json
-│
+
 
 
 ---
