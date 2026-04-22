@@ -1,16 +1,91 @@
-# React + Vite
+# 💬 Convox — Real-Time Chat Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern real-time chat application built using **React (Vite)** and **Socket.IO**, allowing users to communicate instantly in a shared room with live typing indicators.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 https://your-demo-link.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🔗 Real-time messaging using WebSockets
+* 👤 Join chat with a username
+* 💬 Group chat (single room)
+* ⌨️ Live typing indicator
+* 🕒 Message timestamps
+* 📱 Fully responsive UI
+* ✨ Smooth and clean chat interface
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js (Vite), JavaScript (ES6+)
+* **Styling:** Tailwind CSS
+* **Backend:** Node.js, Express
+* **WebSocket:** Socket.IO
+
+---
+
+## 📂 Project Structure
+
+
+convox/
+│
+├── backend/
+│ ├── server.js
+│ ├── package.json
+│
+├── convox/
+│ ├── src/
+│ │ ├── assets/
+│ │ ├── App.jsx
+│ │ ├── main.jsx
+│ │ ├── ws.js
+│ │ ├── index.css
+│ ├── public/
+│ ├── index.html
+│ ├── package.json
+│
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/kushB645/convox.git
+
+Setup Backend
+cd backend
+npm install
+npm start
+Setup Frontend
+cd convox
+npm install
+npm run dev
+📸 Screenshots
+
+Add screenshots of your chat app here
+
+📬 Contact
+📧 Email: kush.bhardwaj.dev@outlook.com
+💼 LinkedIn: https://linkedin.com/in/your-profile
+💻 GitHub: https://github.com/your-username
+🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+⭐ Show your support
+
+If you like this project, give it a ⭐ on GitHub!
+
+📄 License
+
+This project is licensed under the MIT License.
