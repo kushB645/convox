@@ -14,8 +14,7 @@ export default function App() {
 
   useEffect(() => {
     socket.current = connectWS();
-
-    socket.current.on("connect", () => {
+    
       socket.current.on("roomNotice", (userName) => {
         console.log(`${userName} joined to group!`);
       });
@@ -40,7 +39,6 @@ export default function App() {
       socket.current.on("stopTyping", (userName) => {
         setTypers((prev) => prev.filter((typer) => typer !== userName));
       });
-    });
 
     return () => {
       socket.current.off("roomNotice");
