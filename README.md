@@ -34,6 +34,7 @@ A modern real-time chat application built using **React (Vite)** and **Socket.IO
 ## 📂 Project Structure
 
 
+<img width="794" height="632" alt="image" src="https://github.com/user-attachments/assets/3c31ec24-e96d-43ff-9b7a-008a7953b0f1" />
 
 
 
